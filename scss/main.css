@@ -6350,25 +6350,10 @@ p:not(:last-of-type) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/bgcafe.jpg");
+  background-image: url(https://cdn.discordapp.com/attachments/1116078680817533096/1153636347240783932/27q3uhffxhv41.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/header-bg-md.jpg");
-  }
-}
-@media only screen and (min-width: 100em) {
-  .header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/header-bg-md.jpg");
-  }
-}
-@media only screen and (min-width: 120em) {
-  .header {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/0xfolio/img/bg/header-bg-lg.jpg");
-  }
 }
 .header__content {
   display: flex;
