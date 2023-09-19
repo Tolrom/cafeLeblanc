@@ -5,41 +5,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
-	background-image: linear-gradient(
-			to right,
-			rgba($color-black, 0.7),
-			rgba($color-black, 0.7)
-		),
-		asset($base-url, 'img/bg/', 'bgcafe.jpg');
-	@media (min-resolution: 192dpi) {
-		background-image: linear-gradient(
-				to right,
-				rgba($color-black, 0.7),
-				rgba($color-black, 0.7)
-			),
-			asset($base-url, 'img/bg/', 'header-bg-md.jpg');
-	}
-
-	// Above 1600px
-	@media only screen and (min-width: 100em) {
-		background-image: linear-gradient(
-				to right,
-				rgba($color-black, 0.7),
-				rgba($color-black, 0.7)
-			),
-			asset($base-url, 'img/bg/', 'header-bg-md.jpg');
-	}
-	// Above 1920px
-	@media only screen and (min-width: 120em) {
-		background-image: linear-gradient(
-				to right,
-				rgba($color-black, 0.7),
-				rgba($color-black, 0.7)
-			),
-			asset($base-url, 'img/bg/', 'header-bg-lg.jpg');
-	}
-
+	background-image: url(https://cdn.discordapp.com/attachments/1116078680817533096/1153636347240783932/27q3uhffxhv41.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
