@@ -6350,6 +6350,7 @@ p:not(:last-of-type) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
   background-image: url(img/bgcafe.jpg);
   background-size: cover;
   background-position: center;
